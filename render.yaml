@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: Boyka-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/JoshKingofc/Boyka-pair-site
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
